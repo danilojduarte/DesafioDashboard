@@ -13,6 +13,12 @@
 
 body {
     font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.grid {
+    display: grid;
 }
 
 .box {
@@ -25,7 +31,7 @@ body {
 #app {
     background-color: #292738;
 
-    display: grid;
+    
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 3.2rem;
     row-gap: 5.9rem;
