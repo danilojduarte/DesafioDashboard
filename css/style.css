@@ -21,3 +21,21 @@ body {
     box-shadow: .3rem .4rem 2.6rem rgba(0, 0, 0, 0.25);
     border-radius: 1.6rem;
 }
+
+#app {
+    background-color: #292738;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3.2rem;
+    row-gap: 5.9rem;
+
+    width: 100vw;
+    height: 100vh;
+
+    padding: 11.2rem 123rem;
+}
+
+.box:nth-child(4) {
+    grid-column: 1/4;
+}
