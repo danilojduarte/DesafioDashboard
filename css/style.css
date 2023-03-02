@@ -28,13 +28,15 @@ body {
     box-shadow: .3rem .4rem 2.6rem rgba(0, 0, 0, 0.25);
     border-radius: 1.6rem;
     color: #fff;
+    line-height: 160%;
 }
 
 #app {
     background-color: #292738;
 
     
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: max-content;
     gap: 3.2rem;
     row-gap: 5.9rem;
 
@@ -48,14 +50,26 @@ body {
     grid-column: 1/4;
 }
 
-.nps {
+.top {
     font-weight: 600;
     font-size: 24px;
-    line-height: 160%;
     text-align: center;
+}
 
+.bottom {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: auto;
+}
+
+.bottom .item {
+    display: flex;
+    gap: 1rem;
+}
+
+.nps {
     width: 29.6rem;
-
     gap: 3.2rem;
 }
 
@@ -70,5 +84,6 @@ body {
 .nps .bottom {
     font-weight: 500;
     font-size: 14px;
-    grid-auto-flow: column;
+    display: flex;
+    gap: 1rem;
 }
