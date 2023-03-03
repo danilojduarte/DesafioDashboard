@@ -35,15 +35,18 @@ body {
     background-color: #292738;
 
     
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 29.6rem max-content max-content;
     grid-template-rows: max-content;
     gap: 3.2rem;
     row-gap: 5.9rem;
 
-    width: 100vw;
-    height: 100vh;
+    width: fit-content;
+    height: fit-content;
+    min-height: 100vh;
+    min-width: 100vw;
 
     padding: 11.2rem 12.3rem;
+    place-content: center;
 }
 
 .box:nth-child(4) {
@@ -69,7 +72,6 @@ body {
 }
 
 .nps {
-    width: 29.6rem;
     gap: 3.2rem;
 }
 
