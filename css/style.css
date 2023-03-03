@@ -64,6 +64,8 @@ body {
     gap: 2rem;
     justify-content: center;
     margin: auto;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .bottom .item {
@@ -84,8 +86,5 @@ body {
 }
 
 .nps .bottom {
-    font-weight: 500;
-    font-size: 14px;
-    display: flex;
     gap: 1rem;
 }
