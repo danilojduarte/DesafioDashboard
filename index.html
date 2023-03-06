@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,13 @@
 
     <title>DashBoard</title>
 </head>
+
 <body>
     <main id="app" class="grid">
         <div class="box nps grid">
             <div class="top">NPS geral</div>
             <div class="middle grid">
-                <img src="img/smile.svg" alt="bolinha verde sorrindo"/>
+                <img src="img/smile.svg" alt="bolinha verde sorrindo" />
                 Execelente
             </div>
             <div class="bottom">
@@ -26,14 +28,21 @@
         <div class="box sell grid">
             <div class="top">Vendas fechadas</div>
             <div class="middle">
-                
-            <svg viewBox="0 0 232 232">
-                <circle
-                cx="50%" cy="50%"
-                r="98.5"
-                opacity="0.1"
-                />
-            </svg>
+
+                <svg viewBox="0 0 232 232">
+                    <circle cx="50%" cy="50%" r="98.5" opacity="0.1" stroke="#d9d9d9" />
+
+                    <circle cx="50%" cy="50%" r="98.5" opacity="0.1" stroke=url(#paint0_linear_201_85) />
+
+                    <defs>
+                        <linearGradient id="paint0_linear_201_85" x1="-9" y1="82" x2="145" y2="178"
+                            gradientUnits="userSpaceOnse">
+                            <stop stop-color="#ce9ffc" />
+                            <stop offdet="1" stop-color="#7367f0" />
+                        </linearGradient>
+                    </defs>
+
+                </svg>
 
 
 
@@ -46,7 +55,8 @@
                     <span>100</span>
                 </div>
                 <div class="item">
-                    <span style="--bg-color:linear-gradient(121.94deg, #ce9ffc 15.98%, #7367f0 82.85%);">Alcançado</span>
+                    <span
+                        style="--bg-color:linear-gradient(121.94deg, #ce9ffc 15.98%, #7367f0 82.85%);">Alcançado</span>
                     <span>70</span>
                 </div>
             </div>
@@ -54,7 +64,7 @@
         <div class="box target grid">
             <div class="top">Menta mensal</div>
             <div class="middle">
-                <img src="" alt=""/>                
+                <img src="" alt="" />
             </div>
             <div class="bottom">
                 <div class="item">
@@ -62,7 +72,8 @@
                     <span>70K</span>
                 </div>
                 <div class="item">
-                    <span style="--bg-color:linear-gradient(121.94deg, #ce9ffc 15.98%, #7367f0 82.85%);">Alcançado</span>
+                    <span
+                        style="--bg-color:linear-gradient(121.94deg, #ce9ffc 15.98%, #7367f0 82.85%);">Alcançado</span>
                     <span>63K</span>
                 </div>
 
@@ -71,6 +82,7 @@
         </div>
         <!-- <div class="box"></div> -->
     </main>
-    
+
 </body>
+
 </html>
