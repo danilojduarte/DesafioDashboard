@@ -110,3 +110,17 @@ body {
 .nps .bottom {
     gap: 1rem;
 }
+
+.middle {
+    display: grid;
+    place-content: center;
+}
+
+svg {
+    width: 19.7rem;
+    height: 19.7rem;
+}
+
+svg circle {
+    
+}
